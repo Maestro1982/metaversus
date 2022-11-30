@@ -15,7 +15,7 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title='|About Metaversus' textStyles='text-center' />
+      <TypingText title='| About Metaversus' textStyles='text-center' />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
@@ -34,8 +34,13 @@ const About = () => (
         <span className='font-extrabold text-white'>explore</span> the madness
         of the metaverse by scrolling down
       </motion.p>
+      <motion.img
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        src='/arrow-down.svg'
+        alt='arrow down'
+        className='w-[18px] h-[28px] object-contain mt-[28px]'
+      />
     </motion.div>
-    About section
   </section>
 );
 
