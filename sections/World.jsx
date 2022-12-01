@@ -33,13 +33,13 @@ const World = () => (
           alt='map'
           className='w-full h-full object-contain'
         />
-        <div className='absolute hidden lg:block lg:bottom-20 lg:right-20 lg:w-[70px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
+        <div className='absolute hidden md:block lg:block md:bottom-48 lg:bottom-20 md:right-16 lg:right-20 md-[35px] lg:w-[70px] md:h-[35px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
           <img src='/people-01.png' alt='people' className='w-full h-full' />
         </div>
-        <div className='absolute hidden lg:block lg:top-10 lg:left-20 lg:w-[70px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
+        <div className='absolute hidden md:block lg:block md:top-40 lg:top-10 md:left-16 lg:left-20 md:w-[35px] lg:w-[70px] w-[35px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
           <img src='/people-02.png' alt='people' className='w-full h-full' />
         </div>
-        <div className='absolute hidden lg:block lg:top-1/2 lg:left-[45%] lg:w-[70px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
+        <div className='absolute hidden md:block lg:block md:top-[45%] lg:top-1/2 md:left-[50%] lg:left-[45%] md:-[35px] lg:w-[70px] md:h-[35px] lg:h-[70px] p-[6px] rounded-full bg-[#5d6880]'>
           <img src='/people-03.png' alt='people' className='w-full h-full' />
         </div>
         <div className='absolute hidden md:block lg:block md:top-56 lg:top-60 md:left-32 lg:left-60 md:w-[90px] lg:w-[196px] md:h-[75px] lg:h-[150px] p-[6px] rounded-[24px] bg-[#5d6880]'>
